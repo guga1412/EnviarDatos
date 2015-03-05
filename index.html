@@ -17,13 +17,13 @@
                         var direc=$("#direc").val();
                         var obse=$("#obs").val();
                               
-                            alert(tel);
+                        
                               
                      
                         $.ajax({
                             type:"POST",
                             url:"http://guga141292.260mb.net/envio.php",
-                            data:"Nombre="+nom+"&apellido="+app+"&email="+email+"&tel"+tel+"&direc"+direc+"&obs"+obse,
+                            data:"Nombre="+nom+"&apellido="+app+"&email="+email+"&tel="+tel+"&direc="+direc+"&obs="+obs,
                             success: recepcion
                             
                             });
